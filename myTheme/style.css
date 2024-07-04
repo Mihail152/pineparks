@@ -1,0 +1,42 @@
+/*
+Theme Name: myTheme
+Theme URI: tatrokovzm@gmail.com
+Author: TatrokovZM
+Author URI: @arr_nn
+Description: Theme for Pineparks
+Version: 1.0
+*/
+
+.menu__list .menu{
+    display: flex;
+    list-style: none;
+    gap: 28px;
+}
+.header__inline .menu__list li.current-menu-item span {
+    color: #000;
+}
+footer.footer .footer__title {
+    margin-bottom: 20px;
+}
+.footer__bottom-menu ul li{
+    margin-bottom: 15px;
+}
+.footer__bottom-menu ul li:last-child{
+    margin-bottom: 0;
+}
+footer.footer .footer__column{
+    padding-bottom: 0;
+}
+@media (max-width: 768px) {
+    footer.footer .footer__column{
+        padding-bottom: 60px;
+    }
+    .menu__list .menu {
+        gap: 28px;
+        flex-wrap: wrap;
+        padding: 30px 20px;
+    }
+    .menu__list li{
+        width: 100%;
+    }
+}
