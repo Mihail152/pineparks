@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css?_v=20240704193524" />
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240704193524">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="body">
+	<div class="wrapper">
+		<header id="header" class="header">
+	<div class="header__container">
+		<div class="header__column--left">
+			<a href="/" class="header__logo">
+				<img src="img/logo.svg" class="img-logo">
+				<span>SAFARI</span>
+			</a>
+			<div class="header__inline">
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+						<label for="burger-checkbox" class="burger"></label>
+						<ul class="menu__list">
+							<li class="menu__item current">
+								<a onclick="toggleClassAndStyle()" class="menu__link sub-menu">
+									<span>Home</span></a>
+							</li>
+							<li class="menu__item">
+								<a onclick="toggleClassAndStyle()" class="menu__link sub-menu">
+									<span>Top destinations</span></a>
+							</li>
+							<li class="menu__item">
+								<a onclick="toggleClassAndStyle()" class="menu__link sub-menu">
+									<span>Travel information</span></a>
+							</li>
+							<li class="menu__item">
+								<a onclick="toggleClassAndStyle()" class="menu__link sub-menu">
+									<span>Contact Us</span></a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div class="header__column--right">
+			<button class="header__btn btn black">Book a tour</button>
+		</div>
+	</div>
+</header>
+		<main class="page forms-wrapper">
+			<!-- Slider main container -->
+			<div class="swiper">
+				<!-- Additional required wrapper -->
+				<div class="swiper-wrapper">
+					<!-- Slides -->
+					<div class="swiper-slide slide1">
+						<div class="slide__container">
+							<div class="slide__inner">
+								<div class="slide__title">Tanzania: land of safaris, nature, culture and wildlife.</div>
+								<div class="slide__subtitle">A Tanzania vacation is the ultimate once-in-a-lifetime
+									holiday! Tanzania is a top safari destination and has so much to offer.</div>
+								<button class="btn white">Book a tour</button>
+								<ul class="slide__checklist">
+									<li><img src="./img/check.svg" alt="">100% specialized in Tanzania</li>
+									<li><img src="./img/check.svg" alt="">World class safari guides</li>
+									<li><img src="./img/check.svg" alt="">Private safaris</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide slide2">
+						<div class="slide__container">
+							<div class="slide__inner">
+								<div class="slide__title">Tanzania: land of safaris, nature, culture and wildlife.</div>
+								<div class="slide__subtitle">A Tanzania vacation is the ultimate once-in-a-lifetime
+									holiday! Tanzania is a top safari destination and has so much to offer.</div>
+								<button class="btn white">Book a tour</button>
+								<ul class="slide__checklist">
+									<li><img src="./img/check.svg" alt="">100% specialized in Tanzania</li>
+									<li><img src="./img/check.svg" alt="">World class safari guides</li>
+									<li><img src="./img/check.svg" alt="">Private safaris</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide slide3">
+						<div class="slide__container">
+							<div class="slide__inner">
+								<div class="slide__title">Tanzania: land of safaris, nature, culture and wildlife.</div>
+								<div class="slide__subtitle">A Tanzania vacation is the ultimate once-in-a-lifetime
+									holiday! Tanzania is a top safari destination and has so much to offer.</div>
+								<button class="btn white">Book a tour</button>
+								<ul class="slide__checklist">
+									<li><img src="./img/check.svg" alt="">100% specialized in Tanzania</li>
+									<li><img src="./img/check.svg" alt="">World class safari guides</li>
+									<li><img src="./img/check.svg" alt="">Private safaris</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper__nav">
+					<div class="swiper__nav_progress">
+						<!-- If we need pagination -->
+						<div class="swiper-pagination"></div>
+						<!-- If we need scrollbar -->
+						<div class="swiper__progress__wrap">
+							<div class="swiper__progress"></div>
+						</div>
+					</div>
+					<!-- If we need navigation buttons -->
+					<div class="swiper__nav_arrows">
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-button-next"></div>
+					</div>
+
+				</div>
+
+			</div>
+
+
+			<div class="content__container">
+				<div class="row aligncenter direction1200">
+					<div class="col-6">
+						<picture><source srcset="img/image1.webp" type="image/webp"><img src="img/image1.png" alt=""></picture>
+					</div>
+					<div class="col-6">
+						<div class="flex jcc flexwrap">
+							<div class="text">
+								<div class="undertitle">Serengeti, the ultimate wildlife experience</div>
+								<h1 class="h1">1 day safari Serengeti national park</h1>
+								<div class="flex flexwrap">
+									<div class="text__column">
+										<div class="text__num">12 000</div>
+										<div class="text__desc">square miles</div>
+									</div>
+									<div class="text__column">
+										<div class="text__num">30%</div>
+										<div class="text__desc">of Tanzania is National Parks</div>
+									</div>
+									<div class="text__column onlymobile">
+										<div class="text__num">35</div>
+										<div class="text__desc">species of plains animals</div>
+									</div>
+									<div class="text__column onlymobile">
+										<div class="text__num">500</div>
+										<div class="text__desc">species of birds</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="calculator">
+								<div class="calculator__title">Vacation calculator</div>
+								<div class="calculator__body flex">
+									<input type="text" id="operand1">
+									<select name="" id="">
+										<option value="0">+</option>
+										<option value="0">-</option>
+										<option value="0">*</option>
+										<option value="0">/</option>
+									</select>
+									<input type="text" id="operand2">
+								</div>
+								<div class="calculator__footer">Result: <span id="result">2300</span></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</main>
+		<footer class="footer">
+  <div class="footer__top">
+    <div class="footer__container">
+      <div class="footer__columns">
+        <div class="row">
+          <div class="col-6">
+            <a href="/" class="footer__logo">
+              <img src="img/logo-footer.svg" class="img-logo">
+              <span>SAFARI</span>
+            </a>
+          </div>
+          <div class="col-6 flex">
+            <div class="footer__column">
+              <h3 class="footer__title">Top destinations</h3>
+              <ul class="footer__bottom-menu">
+                <li><a href="#">Terms and conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div class="footer__column">
+              <h3 class="footer__title">Travel information</h3>
+              <ul class="footer__bottom-menu">
+                <li><a href="#">Terms and conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+              <button class="btn white">Book a tour</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="footer__container">
+
+      <div class="footer__bottom-column">
+        <span class="footer__copiright">© 2022 Tanzania</span>
+        <ul class="footer__bottom-menu">
+          <li><a href="#">Terms and conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer__bottom-column">
+        <ul class="flex footer__bottom-social">
+          <li><a href="#"><img src="img/soc-1.svg" alt=""></a></li>
+          <li><a href="#"><img src="img/soc-2.svg" alt=""></a></li>
+          <li><a href="#"><img src="img/soc-3.svg" alt=""></a></li>
+          <li><a href="#"><img src="img/soc-4.svg" alt=""></a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+</footer>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.7.1.js?_v=20240704193524"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js?_v=20240704193524"
+    integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js?_v=20240704193524"></script>
+<script src="js/scripts.js?_v=20240704193524"></script>
+
+
+<script>
+
+
+
+</script>
+</body>
+
+</html>
