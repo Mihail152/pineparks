@@ -9,6 +9,14 @@
 @font-face {
   font-family: "Inter";
   font-display: swap;
+  src: url("../fonts/Inter-Medium.ttf") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  unicode-range: U+0-10FFFF;
+}
+@font-face {
+  font-family: "Inter";
+  font-display: swap;
   src: url("../fonts/Inter-Bold.ttf") format("woff");
   font-weight: bold;
   font-style: normal;
